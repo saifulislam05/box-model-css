@@ -1,6 +1,7 @@
 # Box Model Ass-5 CSS
 
-
+## Hosted Link: 
+[View Project](https://saifulislam05.github.io/box-model-css/)
 ## Project Structure
 The project is a simple web page demonstrating the CSS box model. It consists of a container (`.container`) with various HTML elements representing boxes. These elements include headings (`<h1>`), paragraphs (`<p>`), lists (`<ul>`), list items (`<li>`), buttons (`<button>`), and links (`<a>`).
 
