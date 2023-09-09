@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model || form pdf</title>
+    <style>
+        *{
+            border: 2px solid red;
+        }
+        html,body{
+            border: none;
+        }
+        .container{
+            width: 40%;
+            margin: auto;
+            padding: 2% 1%;
+        }
+        .container > *{
+            padding: 2%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>I'm a box</h1>
+        <p>I'm also a box with some text in it .. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus quasi, id hic excepturi deleniti ipsum laudantium aperiam, ratione quod at, explicabo libero autem. Atque aperiam cumque natus architecto, consequuntur voluptatum.</p>
+        <ul>
+            <li>this list a box</li>
+            <li>and all the list irems in it are boxes</li>
+        </ul>
+        even <button>button</button> and <a href="#" target="_blank">link</a>
+    </div>
+</body>
+</html>
